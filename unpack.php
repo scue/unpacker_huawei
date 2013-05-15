@@ -2,9 +2,9 @@
 
 function usage($argv) {
 	printf("usage: php %s -u <UPDATE.APP> <DIRECTORY>\n", $argv[0]);
-	printf("         extracts firmware into current directory.\n", $argv[0]);
+	printf("         extracts firmware into current directory.\n");
 	printf("       php %s -r <DIRECTORY> <UPDATE.APP.NEW>\n", $argv[0]);
-	printf("         packs extracted firmware into UPDATE.APP format.\n", $argv[0]);
+	printf("         packs extracted firmware into UPDATE.APP format.\n");
 	exit;
 }
 
